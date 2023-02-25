@@ -1,0 +1,51 @@
+@media screen and (max-width: 800px) {
+  .habilidades .content-section .fila {
+    display: block;
+  }
+
+  .habilidades .content-section .fila .col {
+    width: 100%;
+    text-align: center;
+  }
+
+  .habilidades .content-section .fila .col .cont-barra {
+    justify-content: center;
+  }
+
+  .habilidades .content-section .barra .e {
+    width: 20px;
+  }
+
+  .sobremi .content-section .fila {
+    display: block;
+  }
+
+  .sobremi .content-section .fila .col {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .resumen .content-section .info {
+    display: block;
+  }
+
+  .resumen .content-section .info .col {
+    width: 90%;
+    margin: auto;
+  }
+
+  .resumen .content-section .info .col .title {
+    display: block;
+    text-align: center;
+  }
+
+  .resumen .content-section .info .col table {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .contacto .content-section .fila {
+    display: block;
+  }
+}

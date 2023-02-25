@@ -1,0 +1,158 @@
+/* Fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Labrada:wght@100;300;400;600;700&family=Mynerve&display=swap");
+
+* {
+  font-family: "Labrada";
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.title-section {
+  font-family: "Mynerve";
+  color: #fff;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 10px #000;
+}
+
+/* Inicio */
+.inicio {
+  background: url("../img/fondo.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #e5e5e5;
+}
+
+.inicio .content-section {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+  padding: 0 10px;
+}
+
+header {
+  margin: auto;
+  text-align: center;
+  padding: 0 10px;
+  padding: 30px;
+}
+
+header nav {
+  position: fixed;
+  margin-left: 60px;
+  background: linear-gradient(
+    0deg,
+    rgba(164, 120, 240, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(164, 120, 240, 1) 100%
+  );
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 99;
+  display: none;
+}
+
+header nav a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: "Mynerve";
+  text-shadow: 0 0 35px #fff;
+}
+
+header .logo .color {
+  color: #000;
+  font-family: "Mynerve";
+}
+
+header .nav-bar {
+  position: fixed;
+  color: #000;
+  background: linear-gradient(
+    0deg,
+    rgba(164, 120, 240, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(164, 120, 240, 1) 100%
+  );
+  opacity: 80%;
+  box-shadow: 0 0 20px #000;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid #000;
+}
+
+header .nav-bar:hover {
+  box-shadow: 0 0 35px #fff;
+}
+
+.inicio .content-section .info {
+  padding-bottom: 130px;
+}
+
+.inicio .content-section .info h1 {
+  font-size: 3rem;
+  letter-spacing: 5px;
+  text-shadow: 0 0 35px #000;
+}
+
+.inicio .content-section .info h2 {
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: -10px;
+  letter-spacing: 2px;
+  text-shadow: 0 0 35px #000;
+}
+
+.inicio .content-section .info .redes {
+  margin: 20px 0;
+}
+
+.inicio .content-section .info .redes a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #000;
+  color: #4102ca;
+  box-shadow: 0 0 20px #000;
+  border: 1px solid #4102ca;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.inicio .content-section .info .redes a:hover {
+  color: #000;
+  background-color: #4102ca;
+  box-shadow: 0 0 20px #000;
+}
+
+.inicio .content-section .foto {
+  position: relative;
+}
+
+.inicio .content-section .foto img {
+  max-width: 200px;
+  border-radius: 50%;
+  border: 5px solid #4102ca;
+  position: absolute;
+  left: 50%;
+  top: -100px;
+  transform: translateX(-50%);
+}

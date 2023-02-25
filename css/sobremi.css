@@ -1,0 +1,63 @@
+/* Fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Labrada:wght@100;300;400;600;700&family=Mynerve&display=swap");
+
+/* Sobre mi */
+.sobremi {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 255, 252, 1) 0%,
+    rgba(10, 31, 102, 1) 100%
+  );
+  padding: 140px 0 100px 0;
+  text-align: center;
+}
+
+.sobremi .content-section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.sobremi .content-section h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.sobremi .content-section .especial {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.sobremi .content-section p {
+  max-width: 700px;
+  margin: auto;
+  color: #3d0202;
+}
+
+.sobremi .content-section .fila {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.sobremi .content-section .fila .col {
+  width: 30%;
+}
+
+.sobremi .content-section .fila .col i {
+  color: #000;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #a82323;
+  line-height: 40px;
+  border-radius: 50%;
+}
+
+.sobremi .content-section .fila .col span {
+  display: block;
+  font-weight: bold;
+  margin: 8px 0;
+}

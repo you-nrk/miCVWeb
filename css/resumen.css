@@ -1,0 +1,73 @@
+/* Fuentes */
+@import url("https://fonts.googleapis.com/css2?family=Labrada:wght@100;300;400;600;700&family=Mynerve&display=swap");
+
+/* Resumen */
+.resumen {
+  background: linear-gradient(
+    0deg,
+    rgba(21, 10, 102, 1) 0%,
+    rgba(0, 125, 255, 1) 100%
+  );
+  padding: 140px 0 100px 0;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 10px #000;
+}
+
+.resumen .content-section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.resumen .content-section h3 {
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.resumen .content-section .info {
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.resumen .content-section .info .col {
+  width: 45%;
+}
+
+.resumen .content-section .info .col .title {
+  display: inline-block;
+  font-size: 25px;
+  font-weight: bold;
+  border: 2px solid #000;
+  padding: 10px;
+}
+
+.resumen .content-section .info .col table {
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+.resumen .content-section .info .col table .datos {
+  width: 40%;
+  border-bottom: 1px solid #000;
+}
+
+.resumen .content-section .info .col table h4 {
+  margin-top: 10px;
+}
+
+.resumen .content-section .info .col table h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.resumen .content-section .info .col table p {
+  font-size: 14px;
+}
+
+.resumen .content-section .info .col table .description {
+  border-left: 1px solid #000;
+  padding: 20px;
+}
